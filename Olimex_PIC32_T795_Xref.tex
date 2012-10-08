@@ -1,0 +1,125 @@
+\documentclass[10pt,a4paper,landscape]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage{ucs}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage[a4paper,landscape,margin=0.5in]{geometry}
+\author{Gergely Imreh}
+\begin{document}
+
+
+\begin{table}[t]
+\centering
+\resizebox{25cm}{!} {
+\begin{tabular}{|ccc|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\multicolumn{13}{|c|}{\bf PIC32-T975 Connector / Function / IC Pin Cross Reference Table} \\
+\hline
+\multicolumn{3}{|c|}{\multirow{2}{*}{PIC32-T795
+Rev B board connectors}} & \multicolumn{2}{|c|}{Pinguino Function
+} & \multicolumn{4}{|c|}{digitalw.c} & \multirow{2}{*}{PIC32 Port} & \multicolumn{3}{|c|}{Microchip PIC32MX3XX/4XX Data Sheet 61143H Table 1-1
+} \\
+\cline{4-9} \cline{11-13}
+ &  &  & Main function & Alternate function & IDE ``pin'' & port mask & pin mask & = Bit & & IC Pin No & IC Pin Name & Description \\
+\hline
+\hline
+ &  & \multicolumn{1}{|c|}{1} & Input/Output 1 & & Pin 1 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{2} & Input/Output 2 & & Pin 2 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{3} & Input/Output 3 & & Pin 3 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{4} & Input/Output 4 & & Pin 4 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{5} & Input/Output 5 & & Pin 5 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{6} & Input/Output 6 & & Pin 6 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{7} & Input/Output 7 & & Pin 7 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{8} & Input/Output 8 & & Pin 8 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{9} & Input/Output 9 & & Pin 9 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{10} & Input/Output 10 & & Pin 10 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{11} & Input/Output 11 & & Pin 11 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{12} & Input/Output 12 & & Pin 12 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{13} & Input/Output 13 & & Pin 13 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{14} & Input/Output 14 & & Pin 14 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{15} & Input/Output 15 & & Pin 15 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{16} & Input/Output 16 & & Pin 16 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{17} & Input/Output 17 & & Pin 17 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{18} & Input/Output 18 & & Pin 18 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{19} & Input/Output 19 & & Pin 19 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{20} & Input/Output 20 & & Pin 20 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{21} & Input/Output 21 & & Pin 21 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{22} & Input/Output 22 & & Pin 22 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{23} & Input/Output 23 & & Pin 23 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{24} & Input/Output 24 & & Pin 24 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{25} & Input/Output 25 & & Pin 25 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{26} & Input/Output 26 & & Pin 26 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{27} & Input/Output 27 & & Pin 27 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{28} & Input/Output 28 & & Pin 28 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{29} & Input/Output 29 & & Pin 29 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{30} & Input/Output 30 & & Pin 30 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{31} & Input/Output 31 & & Pin 31 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{32} & Input/Output 32 & & Pin 32 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{33} & Input/Output 33 & & Pin 33 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{34} & Input/Output 34 & & Pin 34 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{35} & Input/Output 35 & & Pin 35 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{36} & Input/Output 36 & & Pin 36 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{37} & Input/Output 37 & & Pin 37 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{38} & Input/Output 38 & & Pin 38 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{39} & Input/Output 39 & & Pin 39 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{40} & Input/Output 40 & & Pin 40 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{41} & Input/Output 41 & & Pin 41 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{42} & Input/Output 42 & & Pin 42 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{43} & Input/Output 43 & & Pin 43 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{44} & Input/Output 44 & & Pin 44 & & & & & & & \\
+\hline
+ &  & \multicolumn{1}{|c|}{45} & Input/Output 45 & & Pin 45 & & & & & & & \\
+\hline
+% & & & & & & & & & & & & \\
+
+\end{tabular}
+}
+\end{table}
+%Main function & Alternate function & IDE ``pin'' & port mask & pin mask & = Bit & IC Pin No & IC Pin Name & Description \\
+\end{document}
